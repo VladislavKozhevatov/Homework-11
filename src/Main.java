@@ -19,7 +19,7 @@ public class Main {
         return resultmessage;
     }
     private static boolean isOldDevice (int clientDeviceYear){
-        int currentYear = LocalDate.now().getYear();
+        int currentYear = 2015;
         return clientDeviceYear < currentYear;
     }
 
@@ -49,7 +49,7 @@ public class Main {
         }
         //Задача 2
         System.out.println("Задача 2");
-        int clientDeviceYear = 2003;
+        int clientDeviceYear = 2018;
         int clientDeviceOS = 0;//0-iOS;1-Android;
         System.out.println(reccomendAplicationVersion(clientDeviceYear,clientDeviceOS));
         //Задача 3
